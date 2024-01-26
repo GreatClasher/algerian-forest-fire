@@ -1,1 +1,61 @@
-<h1> Welcome to the Home Page </h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algerian Forest Detection</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        main {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <h1>Algerian Forest Fire Detection</h1>
+        <button id="proceedButton">Click Here To Proceed</button>
+    </main>
+
+    <script>
+        // Add JavaScript to handle button click and navigate to home.html
+        document.getElementById('proceedButton').addEventListener('click', function() {
+            window.location.href = '/predictdata';
+        });
+    </script>
+
+</body>
+
+</html>
