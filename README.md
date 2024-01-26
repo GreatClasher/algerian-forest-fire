@@ -1,8 +1,5 @@
 # Algerian Forest Fire Prediction
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/algerian-forest-fire-prediction)
-![GitHub license](https://img.shields.io/github/license/your-username/algerian-forest-fire-prediction)
-
 ## Overview
 
 This project focuses on predicting forest fire incidents in Algeria using machine learning models. The primary goal is to develop a system that can provide early warnings and assist in managing and mitigating the impact of forest fires.
