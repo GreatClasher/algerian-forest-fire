@@ -1,16 +1,35 @@
-# lab-flask
+# Algerian Forest Fire Prediction
 
-<!-- ![image](https://user-images.githubusercontent.com/115451707/196919992-edcfea8b-e3f6-4f35-9398-43be66b5622d.png) -->
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/algerian-forest-fire-prediction)
+![GitHub license](https://img.shields.io/github/license/your-username/algerian-forest-fire-prediction)
 
+## Overview
 
-To run flask application 
+This project focuses on predicting forest fire incidents in Algeria using machine learning models. The primary goal is to develop a system that can provide early warnings and assist in managing and mitigating the impact of forest fires.
 
-```
-python app.py
-```
+## Features
 
+- Predicts forest fire incidents based on various environmental factors.
+- Utilizes the Fire Weather Index (FWI) for accurate predictions.
+- Web application for user-friendly interaction and predictions.
+- Integration of a Ridge Regression model for machine learning predictions.
+- Provides a user interface to input environmental data and receive predictions.
 
-To access your flask application open new tab in and paste the url:
-```
-https://{your_url}.pwskills.app:5000/
-```
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- Flask
+- scikit-learn
+- Other dependencies (specified in requirements.txt)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/algerian-forest-fire-prediction.git
+   pip install -r requirements.txt
+   python app.py
+
